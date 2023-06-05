@@ -15,7 +15,7 @@ end
 # return value: an array containing items in both arrays
 # hint: use Array#intersection
 def common_sports(current_sports, favorite_sports)
-  current_sports.intersection(favorite_sports)
+  current_sports & favorite_sports
 end
 
 # method name: #alphabetical_list
